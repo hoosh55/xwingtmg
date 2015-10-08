@@ -1,0 +1,2732 @@
+[
+   {
+      "Name":"Luke Skywalker",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Millennium Falcon Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":7,
+      "Text":"<p class='restriction'>Rebel only.</p><p>After you perform an attack that does not hit, immediately perform a primary weapon attack. You may change 1 <em>Focus</em> result to a <em>Hit</em> result. You cannot perform another attack this round.</p>",
+      "FAQ":"Luke Skywalker's ability is a separate attack, which means the ship may declare a different target for the second attack, and any abilities to modify attack dice (e.g. through focus or target lock) must be used for each attack separately. When Luke Skywalker is used to perform a primary weapon attack, any additional attacks (such as from Cluster Missiles) are forfeited."
+   },
+   {
+      "Name":"Han Solo",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Tantive IV Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>Rebel only.</p><p>When attacking, if you have a target lock on the defender, you may spend that target lock to change all of your <em>Focus</em> results to <em>Hit</em> results.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Jan Dodonna",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":6,
+      "Text":"<p class='restriction'>Huge Ship only. Rebel only.</p><p>When another friendly ship at Range 1 is attacking, it may change 1 of its <em>Hit</em> results to a <em>Critical</em> result.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Jan Ors",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Rebel Aces Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>Rebel only.</p><p>Once per round, when a friendly ship at Range 1-3 performs a focus action or would be assigned a focus token, you may assign that ship an evade token instead.</p>",
+      "FAQ":"If the ship Jan Ors is equipped to performs a focus action or would be assigned a focus token, Jan Ors can be used to assign that ship an evade token instead. A ship equipped with Recon Specialist at Range 1–3 of Jan Ors that performs a focus action may receive 1 focus token and 1 evade token."
+   },
+   {
+      "Name":"Kyle Katarn",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Rebel Aces Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p class='restriction'>Rebel only.</p><p>After you remove a stress token from your ship, you may assign a focus token to your ship.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Lando Calrissian",
+      "Subtype":"Crew Member",
+      "Set":[
+         "YT-2400 Freighter Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p class='restriction'>Rebel only.</p><p><strong>Action:</strong> Roll 2 defense dice. For each <em>Focus</em> result, assign 1 focus token to your ship. For each <em>Evade</em> result, assign 1 evade token to your ship.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Leia Organa",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Tantive IV Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":4,
+      "Text":"<p class='restriction'>Rebel only.</p><p>At the start of the Activation phase, you may discard this card to allow all friendly ships that reveal a red maneuver to treat that maneuver as a white maneuver until the end of the phase.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"R2-D2_(Crew)",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Tantive IV Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":4,
+      "Text":"<p class='restriction'>Rebel only.</p><p>At the end of the End phase, if you have no shields, you may recover 1 shield and roll 1 attack die. On a <em>Hit</em> result, randomly flip 1 of your facedown Damage cards faceup and resolve it.</p>",
+      "FAQ":"If R2-D2 is equipped to a Huge ship with multiple sections, he affects only the section he is equipped to. For example, if R2-D2 is equipped to the fore section, and the fore section has no shields remaining, R2-D2 can be used to recover one shield on that section (even if the aft section has shields remaining)."
+   },
+   {
+      "Name":"Raymus Antilles",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Tantive IV Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":6,
+      "Text":"<p class='restriction'>Huge ship only. Rebel only.</p><p>At the start of the Activation phase, choose 1 enemy ship at Range 1-3. You may look at that ship's chosen maneuver. If the maneuver is white, assign that ship 1 stress token.</p>"
+   },
+   {
+      "Name":"Nien Nunb",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Millennium Falcon Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":1,
+      "Text":"<p class='restriction'>Rebel only.</p><p>You may treat all <em>Straight</em> maneuvers as green maneuvers.</p>",
+      "FAQ":"If a ship equipped with Nien Nunb attempts to execute a [Koiogran Turn] maneuver but is unsuccessful, causing the maneuver to be treated as a [Straight] maneuver, Nien Nunb’s ability does not make that [Straight] maneuver green. If ship is ionized, Nien Nunb’s ability does make the white [Straight￼ 1] maneuver green."
+   },
+   {
+      "Name":"Intelligence Agent",
+      "Subtype":"Crew Member",
+      "Set":[
+         "HWK-290 Expansion Pack",
+         "Lambda-class Shuttle Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>At the start of the Activation phase, choose 1 enemy ship at Range 1-2. You may look at that ship's chosen maneuver.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"\"Leebo\"",
+      "Subtype":"Crew Member",
+      "Set":[
+         "YT-2400 Freighter Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>Rebel only.</p><p><strong>Action:</strong> Perform a free boost action. Then receive 1 ion token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Admiral Ozzel",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Empire",
+      "FactionCode":2,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>Huge ship only. Imperial only.</p><p><strong>Energy:</strong> You may remove up to 3 shields from your ship. For each shield removed, gain 1 energy.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Targeting Coordinator",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Tantive IV Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p class='restriction'>Limited.</p><p><strong>Energy:</strong> You may spend 1 energy to choose 1 friendly ship at Range 1-2. Acquire a target lock, then assign the blue target lock token to the chosen ship.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Ysanne Isard",
+      "Subtype":"Crew Member",
+      "Set":[
+         "VT-49 Decimator Expansion Pack"
+      ],
+      "Faction":"Empire",
+      "FactionCode":2,
+      "Unique":true,
+      "Cost":4,
+      "Text":"<p class='restriction'>Imperial only.</p><p>At the start of the Combat phase, if you have no shields and at least 1 Damage card assigned to your ship, you may perform a free evade action.</p>",
+      "FAQ":"A ship that has the Damaged Sensor Array Damage (original Damage deck) card assigned to it cannot use Ysanne Isard to perform a free evade action if it has the evade action listed in its action bar."
+   },
+   {
+      "Name":"Rebel Captive",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Lambda-class Shuttle Expansion Pack"
+      ],
+      "Faction":"Empire",
+      "FactionCode":2,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p class='restriction'>Imperial only.</p><p>Once per round, the first ship that declares you as the target of an attack immediately receives 1 stress token</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Mara Jade",
+      "Subtype":"Crew Member",
+      "Set":[
+         "VT-49 Decimator Expansion Pack"
+      ],
+      "Faction":"Empire",
+      "FactionCode":2,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p class='restriction'>Imperial only.</p><p>At the end of the Combat phase, each enemy ship at Range 1 that does not have a stress token receives 1 stress token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Agent Kallus",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Imperial Assault Carrier Expansion Pack"
+      ],
+      "Faction":"Empire",
+      "FactionCode":2,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>Imperial Only.</p><p>At the start of the first round, choose 1 enemy small or large ship. When attacking or defending against that ship, you may change 1 of your <em>Focus</em> results to a <em>Hit</em> or <em>Evade</em> result.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Bombardier",
+      "Subtype":"Crew Member",
+      "Set":[
+         "K-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>When dropping a bomb, you may use the [2 straight] template instead of the [1 straight] template.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Shield Technician",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p class='restriction'>Huge ship only.</p><p>When you perform a recover action, instead of spending all of your energy, you can choose any amount of energy to spend.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Tactician",
+      "Subtype":"Crew Member",
+      "Set":[
+         "TIE Phantom Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>After you perform an attack against a ship inside your firing arc at Range 2, that ship receives 1 stress token.</p>",
+      "FAQ":"If a ship is equipped with both Gunner and Tactician, and the first attack misses, the defender still receives 1 stress token from the attack. Ships attacking with turret weapons must measure from closest point to closest point when determining range."
+   },
+   {
+      "Name":"Saboteur",
+      "Subtype":"Crew Member",
+      "Set":[
+         "HWK-290 Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p><strong>Action:</strong> Choose 1 enemy ship at Range 1 and roll 1 attack die. On a <em>Hit</em> or <em>Critical</em> result, choose 1 random facedown Damage card assigned to that ship, flip it faceup, and resolve it.</p>",
+      "FAQ":"f Saboteur flips a Damage card that causes the targeted ship to be unable to resolve a maneuver (such as Thrust Control Fire before a ship attempts a red maneuver, or Damaged Engine on a stressed ship before the ship attempts a turn), the player controlling the ship with Saboteur equipped gets to choose the stressed ship’s maneuver when it activates during the Activation phase."
+   },
+   {
+      "Name":"Recon Specialist",
+      "Subtype":"Crew Member",
+      "Set":[
+         "HWK-290 Expansion Pack",
+         "TIE Phantom Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p>When you perform a focus action, assign 1 additional focus token to your ship.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Weapons Engineer",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Millennium Falcon Expansion Pack",
+         "Lambda-class Shuttle Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p>You may maintain 2 target locks (only 1 per enemy ship).</p><p>When you acquire a target lock, you may lock onto 2 different ships.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Wed-15 Repair Droid",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p class='restriction'>Huge Ship only</p><p><strong>Action:</strong> Spend 1 energy to discard 1 of your facedown Damage cards, or spend 3 energy to discard 1 of your faceup Damage cards.</p>",
+      "FAQ":"If WED-15 Repair Droid is equipped to a huge ship with multiple sections, its ability can be used on a Damage card assigned to either section of the ship, though it uses up the action of the section WED-15 Repair Droid is assigned to. WED-15 Repair Droid can be used on a Damage card assigned to a crippled section of a huge ship (for example, to remove a faceup damage card); however, once a section has been crippled it is crippled for the remainder of the match."
+   },
+   {
+      "Name":"Gunner",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Slave 1 Expansion Pack",
+         "YT-2400 Freighter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":5,
+      "Text":"<p>After you perform an attack that does not hit, immediately perform a primary weapon attack. You cannot perform another attack this round.</p>",
+      "FAQ":"Using Gunner’s ability is a separate attack, which means that the ship can choose to declare a different target for the second attack, and any abilities to modify attack dice (such as spending a focus token or a target lock) must be used for each attack separately. When Gunner is used to perform a primary weapon attack, any additional attacks (such as from Cluster Missiles) are forfeited."
+   },
+   {
+      "Name":"Mercenary Copilot",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Slave 1 Expansion Pack",
+         "YT-2400 Freighter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>When attacking at Range 3, you may change 1 of your <em>Hit</em> results to a <em>Critical</em> result.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Navigator",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Lambda-class Shuttle Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p>When you reveal a maneuver, you may rotate your dial to another maneuver with the same bearing.</p><p>You cannot rotate to a red maneuver if you have any stress tokens.</p>",
+      "FAQ":"A ship that has been ionized cannot use Navigator to change the speed of the white [Straight 1] maneuver. If Boba Fett is equipped with Navigator and chooses a bank maneuver, when he reveals his dial he may rotate to any bank maneuver of any speed."
+   },
+   {
+      "Name":"Bossk",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Hound's Tooth Expansion Pack"
+      ],
+      "Faction":"Scum",
+      "FactionCode":3,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>Scum only.</p><p>After you perform an attack that does not hit, if you are not stressed, you <em>must</em> receive 1 stress token. Then assign 1 focus token to your ship and acquire a target lock on the defender.</p>",
+      "FAQ":"Bossk triggers each time you perform an attack that does not hit. If you are not stressed, you receive a stress token. If you are already stressed, you do not receive an additional stress token. Then, whether or not a stress token is receieved, assign 1 focus token to your ship and acquire a target lock on the defender."
+   },
+   {
+      "Name":"K4 Security Droid",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Most Wanted Expansion Pack",
+         "Hound's Tooth Expansion Pack"
+      ],
+      "Faction":"Scum",
+      "FactionCode":3,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p class='restriction'>Scum only.</p><p>After executing a green maneuver, you may acquire a target lock.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Outlaw Tech",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Most Wanted Expansion Pack",
+         "Hound's Tooth Expansion Pack"
+      ],
+      "Faction":"Scum",
+      "FactionCode":3,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p class='restriction'>Scum only. Limited.</p><p>After you execute a red maneuver, you may assign 1 focus token to your ship.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Greedo",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Most Wanted Expansion Pack"
+      ],
+      "Faction":"Scum",
+      "FactionCode":3,
+      "Unique":true,
+      "Cost":1,
+      "Text":"<p class='restriction'>Scum only.</p><p>The first time you attack each round and the first time you defend each round, the first Damage card dealt is dealt faceup.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"C-3PO",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Tantive IV Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p class='restriction'>Rebel only.</p><p>Once per round, before you roll 1 or more defense dice, you may guess aloud a number of <em>Evade</em> results. If you roll that many <em>Evade</em> results (before modifying dice), add 1 <em>Evade</em> result.</p>",
+      "FAQ":"A ship equipped with both C-3PO and Flight Instructor may guess the number of evade￼ results, add an evade ￼ result if the guess was correct, then reroll the dice (if applicable). C-3PO may be used in conjunction with the Lando Calrissian Upgrade card when performing Lando Calrissian’s special action."
+   },
+   {
+      "Name":"Captain Needa",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Empire",
+      "FactionCode":2,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>Huge ship only. Imperial only.</p><p>If you overlap an obstacle during the Activation Phase, do not suffer 1 faceup damage card. Instead, roll 1 attack die. On a <em>Hit</em> or a <em>Critical Hit</em> result, suffer 1 damage.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Carlist Rieekan",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p class='restriction'>Huge Ship only. Rebel only.</p><p>At the start of the Activation phase, you may discard this card to treat each friendly ship's pilot skill as \"12\" until the end of the phase.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Toryn Farr",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":6,
+      "Text":"<p class='restriction'>Huge Ship Only. Rebel Only.</p><p><strong>Action:</strong> Spend any amount of energy to choose that many enemy ships at Range 1-2. Remove all focus, evade, and blue target lock tokens from those ships.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Chewbacca",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Millennium Falcon Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":4,
+      "Text":"<p class='restriction'>Rebel only.</p><p>When you are dealt a Damage card, you may immediately discard that card and recover 1 shield.</p><p>Then, discard this Upgrade card.</p>",
+      "FAQ":"If a ship equipped with Chewbacca suffers critical damage, the player may look at that card before choosing whether to use Chewbacca’s ability to discard it. If a ship equipped with Chewbacca is about to suffer its last damage before it would be destroyed, Chewbacca may be used to prevent that one damage and recover a shield."
+   },
+   {
+      "Name":"Darth Vader",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Lambda-class Shuttle Expansion Pack"
+      ],
+      "Faction":"Imperial",
+      "FactionCode":2,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p class='restriction'>Imperial only.</p><p>After you perform an attack against an enemy ship, you may suffer 2 damage to cause that ship to suffer 1 critical damage.</p>",
+      "FAQ":"If a ship equipped with Darth Vader can attack twice in one round (such as a ship equipped with Gunner or Cluster Missiles), it can use Darth Vader after the first attack and after the second attack. If Darth Vader destroys the ship to which he is equipped, it can still perform its second attack. If Vader is used twice, it must be in this order: Attack, Vader, Attack, Vader."
+   },
+   {
+      "Name":"Moff Jerjerrod",
+      "Subtype":"Crew Member",
+      "Set":[
+         "VT-49 Decimator Expansion Pack"
+      ],
+      "Faction":"Imperial",
+      "FactionCode":2,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>Imperial only.</p><p>When you are dealt a faceup Damage card, you may discard this Upgrade card or another Crew Upgrade card to flip that Damage card facedown (without resolving its effect).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Dash Rendar",
+      "Subtype":"Crew Member",
+      "Set":[
+         "YT-2400 Freighter Expansion Pack"
+      ],
+      "Faction":"Rebellion",
+      "FactionCode":1,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>Rebel only.</p><p>You may perform attacks while overlapping an obstacle.</p><p>Your attacks cannot be obstructed.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Emperor Palpatine",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Imperial",
+      "FactionCode":2,
+      "Unique":true,
+      "Cost":8,
+      "Text":"<p class='restriction'>Imperial only.</p><p>Once per round, you may change a friendly ship's die result to any other die result. That die result cannot be modified again.</p>",
+      "FAQ":"This ability can be used when attacking or defending, using an ability that requires a dice roll (such as Anti Pursuit Lasers), or when a friendly ship has overlapped a Proximity Mine, Cluster Mine, or obstacle. Emperor Palpatine is a crew Upgrade card."
+   },
+   {
+      "Name":"Fleet Officer",
+      "Subtype":"Crew Member",
+      "Set":[
+         "VT-49 Decimator Expansion Pack"
+      ],
+      "Faction":"Imperial",
+      "FactionCode":2,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p class='restriction'>Imperial only.</p><p><strong>Action:</strong> Choose up to 2 friendly ships within Range 1-2 and assign 1 focus token to each of those ships. Then receive 1 stress token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Flight Instructor",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Lambda-class Shuttle Expansion Pack"
+      ],
+      "Faction":"neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p>When defending, you may reroll one of your <em>Focus</em> results. If the attacker's pilot skill value is '2' or lower, you may reroll 1 of your blank results instead.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Grand Moff Tarkin",
+      "Subtype":"Crew Member",
+      "Set":[
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Imperial",
+      "FactionCode":2,
+      "Unique":true,
+      "Cost":6,
+      "Text":"<p class='restriction'>Huge ship only. Imperial only.</p><p>At the start of the Combat Phase, you may choose another ship at Range 1-4. Either remove 1 focus token from the chosen ship or assign 1 focus token to that ship.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Draw Their Fire",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "Millennium Falcon Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>When a friendly ship at Range 1 is hit by an attack, you may suffer 1 of the uncanceled <em>Critical</em> results instead of the target ship.</p>",
+      "FAQ":"A ship equipped with Draw Their Fire cannot suffer the critical damage caused by Darth Vader, Proximity Mines, or Prince Xizor’s pilot ability, as that damage is not an attack."
+   },
+   {
+      "Name":"Expose",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "Slave 1 Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p><strong>ACTION:</strong> Until the end of the round, increase your primary weapon value by 1 and decrease your agility value by 1.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Ruthlessness",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "VT-49 Decimator Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p class='restriction'>Imperial only.</p><p>After you perform an attack that hits, you <em>must</em> choose 1 other ship at Range 1 of the defender (other than yourself). That ship suffers 1 damage.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Wingman",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "Z-95 Headhunter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>At the start of the Combat phase, remove 1 stress token from another friendly ship at Range 1.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Wired",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "X-Wing The Force Awakens Core Set"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>When attacking or defending, if you are stressed, you may reroll 1 or more of your <em>Focus</em> results.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Intimidation",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "VT-49 Decimator Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>When you are touching an enemy ship, reduce that ship's agility value by 1.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Juke",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "TIE/fo Fighter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p class='restriction'>Small ship only.</p><p>When attacking, if you have an evade token, you may change 1 of the defender's <em>Evade</em> results to a <em>Focus</em> result.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Lightning Reflexes",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "Kihraxz Fighter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p class='restriction'>Small ship only.</p><p>After you execute a white or green maneuver on your dial, you may discard this card to rotate your ship 180°. Then receive 1 stress token <em>after</em> the \"Check Pilot Stress\" step.</p>",
+      "FAQ":"A ship equipped with Lightning Reflexes can use it even if the ship overlapped another ship when executing its maneuver. A ship that executes a maneuver that is not on its dial (such as an ionized ship, a ship using Inertial Dampeners, or Juno Eclipse using her pilot ability to execute a maneuver that is not on her dial) it cannot use Lightning Reflexes."
+   },
+   {
+      "Name":"Lone Wolf",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "YT-2400 Freighter Expansion Pack",
+         "Hound's Tooth Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p>When attacking or defending, if there are no friendly ships at Range 1-2, you may reroll 1 of your blank results.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Opportunist",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "Imperial Aces Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p>When attacking, if the defender does not have any focus or evade tokens, you may receive 1 stress token to roll 1 additional attack die.</p><p>You cannot use this ability if you have any stress tokens.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Outmaneuver",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "TIE Defender Expansion Pack",
+         "E-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p>When attacking a ship inside your firing arc, if you are not inside that ship's firing arc, reduce its agility value by 1 (to a minimum of 0).</p>",
+      "FAQ":"A ship with a turret weapon (including a ship with a 360° primary turret) is affected by Outmaneuver unless it is defending against a ship that is inside the printed, shaded firing arc on their ship token, and only gains the benefit of Outmaneuver when attacking a ship inside the printed, shaded firing arc on its ship token. The auxiliary firing arc of the Firespray-31 is a firing arc."
+   },
+   {
+      "Name":"Predator",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "TIE Defender Expansion Pack",
+         "Kihraxz Fighter Expansion Pack",
+         "Ghost Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p>When attacking, you may reroll 1 attack die. If the defender's pilot skill value is \"2\" or lower, you may instead reroll up to 2 attack dice.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Elusiveness",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "Millennium Falcon Expansion Pack",
+         "TIE Interceptor Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>When defending, you may receive 1 stress token to choose 1 attack die. The attacker must reroll that die.</p><p>If you have at least 1 stress token, you cannot use this ability.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Veteran Instincts",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "Millennium Falcon Expansion Pack",
+         "Slave 1 Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>Increase your pilot skill value by 2.</p>",
+      "FAQ":"Some abilities alter the pilot skill value of a ship. If several game effects alter the pilot skill of a ship, only the most recent effect is applied. For example, if a Green Squadron Pilot equips Veteran Instincts, it increases its pilot skill from 3 to 5. However, if it later receives the Damaged Cockpit damage card faceup, its pilot skill is reduced from 5 to 0 (rather than 2). Next round, however, Wedge Antilles can use Swarm Tactics to raise its pilot skill to 9."
+   },
+   {
+      "Name":"Bodyguard",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "StarViper Expansion Pack"
+      ],
+      "Faction":"Scum",
+      "FactionCode":3,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>Scum only.</p><p>At the start of the Combat phase, you may spend a focus token to choose a friendly ship at Range 1 with a higher pilot skill than you. Increase its agility value by 1 until the end of the round.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Calculation",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "StarViper Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>When attacking, you may spend a focus token to change 1 of your <em>Focus</em> results to a <em>Critical</em> result.</p>",
+      "FAQ":"You may only use Calculation once per attack, no matter how many focus tokens you have to spend. However, If you roll multiple Focus￼ results during an attack, you may spend 1 focus token to change 1 Focus ￼ result into a Critical Hit result (using Calculation) and a second focus token to change all other ￼Focus results into ￼Hit results (the normal effect of spending a focus token)."
+   },
+   {
+      "Name":"Cool Hand",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "T-70 X-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>When you receive a stress token, you may discard this card to assign 1 focus or evade token to your ship.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Crack Shot",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "Hound's Tooth Expansion Pack",
+         "Kihraxz Fighter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>When attacking a ship inside your firing arc, you may discard this card to cancel 1 of the defender's <em>Evade</em> results.</p>",
+      "FAQ":"Crack Shot must be used at the start of the 'Compare Results' step."
+   },
+   {
+      "Name":"Daredevil",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "TIE Interceptor Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p><strong>Action:</strong> Execute a red (<em>Left Turn 1</em>) or (<em>Right Turn 1</em>) maneuver. Then, if you do not have the <em>Boost</em> action icon, roll 2 attack dice. Suffer any damage (<em>Hit</em>) and critical damage (<em>Critical</em>) rolled.</p>",
+      "FAQ":"A ship that performs the Daredevil action follows all normal rules for executing a maneuver, except that the manuever is always treated as a white maneuver. Daredevil may be performed even if the ship would overlap another ship or obstacle; resolve the overlapping as normal."
+   },
+   {
+      "Name":"Deadeye",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "A-Wing Expansion Pack",
+         "Inquisitor's TIE Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>You may treat the <strong>'Attack (target lock):'</strong> header as <strong>'Attack (focus):'</strong>.</p><p>When an attack instructs you to spend a target lock, you may spend a focus token instead.</p>",
+      "FAQ":"A ship that performs the Daredevil action follows all normal rules for executing a maneuver, except that the manuever is always treated as a white maneuver. Daredevil may be performed even if the ship would overlap another ship or obstacle; resolve the overlapping as normal."
+   },
+   {
+      "Name":"Decoy",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "Z-95 Headhunter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>At the start of the Combat phase, you may choose 1 friendly ship at Range 1-2. Exchange your pilot skill with that ship's pilot skill until the end of the phase.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Adrenaline Rush",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "TIE Bomber Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>When you reveal a red maneuver, you may discard this card to treat that maneuver as a white maneuver until the end of the Activation phase.</p>",
+      "FAQ":"If a stressed ship equipped with Adrenaline Rush reveals a red maneuver, it may still use Adrenaline Rush to treat the maneuver as a white maneuver. Adrenaline Rush cannot be used to treat the red [Left Turn ￼ or Right Turn] maneuver caused by a faceup Damaged Engine damage card as a white maneuver."
+   },
+   {
+      "Name":"Determination",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "X-Wing Core Set",
+         "TIE Fighter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>When you are dealt a faceup Damage card with the <em>Pilot</em> trait, discard it immediately without resolving its effect.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Squad Leader",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "TIE Advanced Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p><strong>Action:</strong> Choose 1 ship at Range 1-2 that has a lower pilot skill than you.</p><p>The chosen ship may immediately perform 1 free action.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Push the Limit",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "A-Wing Expansion Pack",
+         "Imperial Aces Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p>Once per round, after you perform an action, you may perform 1 free action shown in your action bar.</p><p>Then receive 1 stress token.</p>",
+      "FAQ":"Free actions, such as a free action granted from Squad Leader, can trigger Push the Limit. This can result in an action interrupting another effect, causing that effect to finish resolving later. For example, if a ship performs a free barrel roll action granted by Expert Handling, it could use that action as a trigger for Push the Limit. After Push the Limit resolves, Expert Handling finishes resolving. If a player uses Push the Limit to attempt an action he is unable to perform (such as attempting to Target Lock a ship that is out of range), he may perform a different action or decide not to use Push the Limit at all. If Experimental Interface and Push the Limit are both equipped to a ship, they can be used together to perform two additional free actions. After the actions have resolved, the ship receives 2 stress tokens."
+   },
+   {
+      "Name":"Stay on Target",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "YT-2400 Freighter Expansion Pack",
+         "Hound's Tooth Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed.</p><p>Treat that maneuver as a red maneuver.</p>",
+      "FAQ":"Even if the chosen maneuver is changed by an ability such as Navigator, the maneuver that the ship executes is always a red maneuver."
+   },
+   {
+      "Name":"Swarm Tactics",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "TIE Fighter Expansion Pack",
+         "TIE Advanced Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>At the start of the Combat phase, you may choose 1 friendly ship at Range 1.</p><p>Until the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill.</p>",
+      "Image":"http://vignette1.wikia.nocookie.net/xwing-miniatures/images/7/75/Swarm_Tactics.png",
+      "FAQ":"Multiple ships that have Swarm Tactics equipped may use it in sequence to give multiple ships the same high pilot skill value. For example, Howlrunner equipped with Swarm Tactics may pass her pilot skill of 8 to a Black Squadron Pilot equipped with Swarm Tactics, who may then pass a pilot skill value of 8 to an Academy Pilot. Some abilities alter the pilot skill value of a ship. If several game effects alter the pilot skill of a ship, only the most recent effect is applied. For example, if a Green Squadron Pilot equips Veteran Instincts, it increases its pilot skill from 3 to 5. However, if it later receives the Damaged Cockpit damage card faceup, its pilot skill is reduced from 5 to 0 (rather than 2). Next round, however, Wedge Antilles can use Swarm Tactics to raise its pilot skill to 9."
+   },
+   {
+      "Name":"Marksmanship",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "X-Wing Core Set",
+         "X-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p><strong>Action:</strong> When attacking this round, you may change 1 of your <em>Focus</em> results to a <em>Critical Hit</em> result and all your other <em>Focus</em> results to <em>Hit</em> results.</p>",
+      "FAQ":"After a ship performs the Marksmanship action, its effect may be applied during each attack it performs until the end of the round. When a ship uses the Marksmanship action, during each attack that round the controlling player must choose to apply the entire effect of Marksmanship or not. If using the Marksmanship effect, 1 <em>Focus</em> result must to be changed to a<em>Critical Hit</em> result before any <em>Focus</em> results are changed to <em>Hit</em> results."
+   },
+   {
+      "Name":"Expert Handling",
+      "Subtype":"Elite Talent",
+      "Set":[
+         "X-Wing Expansion Pack",
+         "TIE Advanced Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p><strong>Action:</strong> Perform a free barrel roll action. If you do not have the <em>Barrel Roll</em> action icon, receive 1 stress token.</p><p>You may then remove 1 enemy target lock from your ship.</p>",
+      "FAQ":"A ship can only perform the same action once per round. A ship equipped with Expert Handling cannot perform a <em>Barrel Roll</em> and use the Expert Handling action in the same round. If a ship attempts to perform an Expert Handling action, but cannot perform a <em>Barrel Roll</em>, the ship may perform a different action instead."
+   },
+   {
+      "Name":"R5-X3",
+      "Subtype":"Astromech",
+      "Set":[
+         "X-Wing The Force Awakens Core Set"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":1,
+      "Text":"<p>Before you reveal your maneuver, you may discard this card to ignore obstacles until the end of the round.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"BB-8",
+      "Subtype":"Astromech",
+      "Set":[
+         "X-Wing The Force Awakens Core Set"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p>When you reveal a green maneuver, you may perform a free barrel roll action.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"R2-D2",
+      "Subtype":"Astromech",
+      "Set":[
+         "X-Wing Core Set"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":4,
+      "Text":"<p>After executing a green maneuver, you may recover 1 shield (up to your shield value).</p>",
+      "FAQ":"If a ship equipped with R2-D2 executes a green maneuver and its base or maneuver template overlaps a proximity mine token, that ship must roll for damage before it recovers 1 shield. If a ship equipped with R2-D2 executes a green maneuver and its base or maneuver template overlaps an obstacle token or its base overlaps a ship equipped with Anti-Pursuit Lasers, that ship recovers 1 shield before rolling for damage."
+   },
+   {
+      "Name":"R2-D6",
+      "Subtype":"Astromech",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":1,
+      "Text":"<p>Your upgrade bar gains the <em>Elite Talent</em> upgrade icon.</p><p>You cannot equip this upgrade if you already have a <em>Elite Talent</em> upgrade icon or if your pilot skill value is 2 or lower.</p>",
+      "FAQ":"If a ship equipped with R2-D2 executes a green maneuver and its base or maneuver template overlaps a proximity mine token, that ship must roll for damage before it recovers 1 shield. If a ship equipped with R2-D2 executes a green maneuver and its base or maneuver template overlaps an obstacle token or its base overlaps a ship equipped with Anti-Pursuit Lasers, that ship recovers 1 shield before rolling for damage."
+   },
+   {
+      "Name":"R5-D8",
+      "Subtype":"Astromech",
+      "Set":[
+         "Y-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p><strong>Action:</strong> Roll 1 defense die.</p><p>On an <em>Evade</em> or <em>Focus</em> result, discard 1 of your facedown Damage cards.</p>",
+      "FAQ":"If a ship equipped with R2-D2 executes a green maneuver and its base or maneuver template overlaps a proximity mine token, that ship must roll for damage before it recovers 1 shield. If a ship equipped with R2-D2 executes a green maneuver and its base or maneuver template overlaps an obstacle token or its base overlaps a ship equipped with Anti-Pursuit Lasers, that ship recovers 1 shield before rolling for damage."
+   },
+   {
+      "Name":"R2-F2",
+      "Subtype":"Astromech",
+      "Set":[
+         "X-Wing Core Set"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p><strong>Action:</strong> Increase your agility value by 1 until the end of this game round.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"R5-K6",
+      "Subtype":"Astromech",
+      "Set":[
+         "X-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p>After spending your target lock, roll 1 defense die.</p><p>On an <em>Evade</em> result, immediately acquire a target lock on that same ship. You cannot spend this target lock during this attack.</p>",
+      "FAQ":"R5-K6 may acquire more than one Target Lock per round - this effect is not a 'free action' so it does not count as performing the same Action twice in a round."
+   },
+   {
+      "Name":"R4-D6",
+      "Subtype":"Astromech",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":1,
+      "Text":"<p>When you are hit by an attack and there are at least 3 uncancelled <em>Hit</em> results, you may choose and cancel those results until there are 2 remaining. For each result cancelled in this way, receive 1 stress token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"R3-A2",
+      "Subtype":"Astromech",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p>When you declare the target of your attack, if the defender is inside your firing arc, you may receive 1 stress token to cause the defender to receive 1 stress token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"R5-P9",
+      "Subtype":"Astromech",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p>At the end of the Combat phase, you may spend 1 of your focus tokens to recover 1 shield (up to your shield value).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"R7-T1",
+      "Subtype":"Astromech",
+      "Set":[
+         "E-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p><strong>Action:</strong> Choose an enemy ship at Range 1-2. If you are inside that ship's firing arc, you may acquire a target lock on that ship. Then, you may perform a free boost action.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"R5 Astromech",
+      "Subtype":"Astromech",
+      "Set":[
+         "X-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>During the End phase, you may choose 1 of your faceup Damage cards with the <em>Ship</em> trait and flip it facedown.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"R2 Astromech",
+      "Subtype":"Astromech",
+      "Set":[
+         "Y-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>You may treat all 1- and 2-speed maneuvers as green maneuvers.</p>",
+      "FAQ":"A ship equipped with R2 Astromech that has Damaged Engine assigned to it treats all of its turn maneuvers as red maneuvers, including the 1- and 2-speed turn maneuvers. If ship is ionized, R2 Astromech’s ability does make the white [Straight 1] maneuver green."
+   },
+   {
+      "Name":"R7 Astromech",
+      "Subtype":"Astromech",
+      "Set":[
+         "E-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>Once per round when defending, if you have a target lock on the attacker, you may spend the target lock to choose any or all attack dice. The attacker must reroll the chosen dice.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Millennium Falcon",
+      "Subtype":"Title",
+      "Set":[
+         "Millennium Falcon Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":1,
+      "Text":"<p class='restriction'>YT-1300 only. Title.</p><p>Your action bar gains the <em>Evade</em> action icon.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Punishing One",
+      "Subtype":"Title",
+      "Set":[
+         "Punishing One Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":12,
+      "Text":"<p class='restriction'>JumpMaster 5000 only. Title.</p><p>Increase your primary weapon value by 1.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Mist Hunter",
+      "Subtype":"Title",
+      "Set":[
+         "Mist Hunter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":0,
+      "Text":"<p class='restriction'>G-1A Starfighter only. Title.</p><p>Your action bar gains the <em>Barrel Roll</em> action icon.</p><p>You must equip one Tractor Beam upgrade card (paying the squad point cost as normal).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"TIE/v1",
+      "Subtype":"Title",
+      "Set":[
+         "Inquisitor's TIE Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":1,
+      "Text":"<p class='restriction'>TIE Adv. Prototype Only. Title.</p><p>After you acquire a target lock, you may perform a free evade action.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Ghost",
+      "Subtype":"Title",
+      "Set":[
+         "Ghost Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":0,
+      "Text":"<p class='restriction'>VCX-100 only. Title.</p><p>Equip the Phantom title card to a friendly Attack Shuttle and dock it to this ship.</p><p>After you execute a maneuver, you may deploy it from your rear guides.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Phantom",
+      "Subtype":"Title",
+      "Set":[
+         "Ghost Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":0,
+      "Text":"<p>While you are docked, the Ghost can perform primary weapon attacks from its special firing arc and, at the end of the Combat phase, it may perform an additional attack with an equipped <em>Turret</em>. If it performs this attack, it cannot attack again this round.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Moldy Crow",
+      "Subtype":"Title",
+      "Set":[
+         "HWK-290 Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p class='restriction'>HWK-290 only. Title.</p><p>During the End phase, do not remove unused focus tokens from your ship.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"ST-321",
+      "Subtype":"Title",
+      "Set":[
+         "Lambda-class Shuttle Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p class='restriction'>Lambda-class Shuttle only. Title.</p><p>When acquiring a target lock, you may lock onto any enemy ship in the play area.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Royal Guard TIE",
+      "Subtype":"Title",
+      "Set":[
+         "Imperial Aces Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":0,
+      "Text":"<p class='restriction'>TIE Interceptor Only. Title.</p><p>You may equip up to 2 different Modification upgrades (instead of 1).</p><p>You cannot equip this card if your pilot skill value is \"4\" or lower.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Bright Hope",
+      "Subtype":"Title",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":5,
+      "Text":"<p class='restriction'>GR-75 only. Title.</p><p>+2 Energy</p><p>A reinforce token assigned to your fore section adds 2 <em>Evade</em> results (instead of 1).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Dutyfree",
+      "Subtype":"Title",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>GR-75 only. Title.</p><p>+0 Energy</p><p>When performing a jam action, you may choose an enemy ship at Range 1-3 (instead of at Range 1-2).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Quantum Storm",
+      "Subtype":"Title",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":5,
+      "Text":"<p class='restriction'>GR-75 only. Title.</p><p>+1 Energy</p><p>At the start of the End phase, if you have 1 or fewer energy tokens, gain 1 energy token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Dodonna's Pride",
+      "Subtype":"Title",
+      "Set":[
+         "Tantive IV Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":4,
+      "Text":"<p class='restriction'>CR90 fore section only. Title.</p><p>When you perform a coordinate action, you may choose 2 friendly ships (instead of 1). Those ships may each perform 1 free action.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Tantive IV",
+      "Subtype":"Title",
+      "Set":[
+         "Tantive IV Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":4,
+      "Text":"<p class='restriction'>CR90 fore section only. Title.</p><p>Your fore section upgrade bar gains 1 additional <em>Crew</em> and 1 additional <em>Team</em> upgrade icon.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Jaina's Light",
+      "Subtype":"Title",
+      "Set":[
+         "Tantive IV Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>CR90 fore section only. Title.</p><p>When defending, once per attack, if you are dealt a faceup Damage card, you may discard it and draw another faceup Damage card.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"A-Wing Test Pilot",
+      "Subtype":"Title",
+      "Set":[
+         "Rebel Aces Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":0,
+      "Text":"<p class='restriction'>A-wing only. Title.</p><p>Your upgrade bar gains 1 Elite Upgrade icon.</p><p>You cannot equip 2 of the same Elite Upgrade cards. You cannot equip this card if your pilot skill value is \"1\" or lower.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Outrider",
+      "Subtype":"Title",
+      "Set":[
+         "YT-2400 Freighter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":5,
+      "Text":"<p class='restriction'>YT-2400 only. Title.</p><p>While you have a <em>Cannons</em> Upgrade card equipped, you cannot perform primary weapon attacks and you may perform <em>Cannons</em> secondary weapons attacks against ships outside your firing arc.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Dauntless",
+      "Subtype":"Title",
+      "Set":[
+         "VT-49 Decimator Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>VT-49 Decimator only. Title.</p><p>After you execute a maneuver that causes you to overlap another ship, you may perform one free action. Then receive 1 stress token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Virago",
+      "Subtype":"Title",
+      "Set":[
+         "StarViper Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":1,
+      "Text":"<p class='restriction'>StarViper only. Title.</p><p>Your upgrade bar gains the <em>System</em> and <em>Illicit</em> upgrade icons.</p><p>You cannot equip this card if your pilot skill value is \"3\" or lower.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Slave 1",
+      "Subtype":"Title",
+      "Set":[
+         "Slave 1 Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":0,
+      "Text":"<p class='restriction'>Firespay-31 only. Title.</p><p>Your upgrade bar gains the <em>Torpedo</em> upgrade icon.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Andrasta",
+      "Subtype":"Title",
+      "Set":[
+         "Most Wanted Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":1,
+      "Text":"<p class='restriction'>Firespay-31 only. Title.</p><p>Your upgrade bar gains two additional <em>Bomb</em> upgrade icons.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Assailer",
+      "Subtype":"Title",
+      "Set":[
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":2,
+      "Text":"<p class='restriction'>Raider-class Corvette Aft Section only. Title.</p><p>When defending, if the target section has a Reinforce token you may change 1 <em>Focus</em> result to an <em>Evade</em> result.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Impetuous",
+      "Subtype":"Title",
+      "Set":[
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p class='restriction'>Raider-class corvette aft section only. Title.</p><p>After you perform an attack that destroys an enemy ship you may acquire a <em>Target Lock</em>.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Instigator",
+      "Subtype":"Title",
+      "Set":[
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":4,
+      "Text":"<p class='restriction'>Raider-class corvette aft section only. Title.</p><p>After you perform a Recover action, recover 1 additional shield.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Hound's Tooth",
+      "Subtype":"Title",
+      "Set":[
+         "Hound's Tooth Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":6,
+      "Text":"<p class='restriction'>YV-666 only. Title.</p><p>After you are destroyed, before you are removed from the play area, you may deploy the Nashtah Pup Pilot.</p><p>It cannot attack this round.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"\"Heavy Scyk\" Interceptor",
+      "Subtype":"Title",
+      "Set":[
+         "M3-A Scyk Interceptor Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p class='restriction'>M3-A Interceptor only. Title.</p><p>Your upgrade bar gains the <em>Cannon</em>, <em>Torpedo</em> or <em>Missile</em> upgrade icon.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"IG-2000",
+      "Subtype":"Title",
+      "Set":[
+         "IG-2000 Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":0,
+      "Text":"<p class='restriction'>Aggressor only. Title.</p><p>You have the pilot ability of each other friendly ship with the IG-2000 Upgrade card (in addition to your own pilot ability).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"BTL-A4 Y-wing",
+      "Subtype":"Title",
+      "Set":[
+         "Most Wanted Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":0,
+      "Text":"<p class='restriction'>Y-wing only. Title.</p><p>You cannot attack ships outside your firing arc. After you perform a primary weapon attack, you may immediately perform an attack with a <em>Turret</em> secondary weapon.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"TIE/x1",
+      "Subtype":"Title",
+      "Set":[
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":0,
+      "Text":"<p class='restriction'>TIE Advanced only. Title.</p><p>Your upgrade bar gains the <em>System Upgrade</em> upgrade icon.</p><p>If you equip a <em>System Upgrade</em> upgrade, its squad point cost is reduced by 4 (to a minimum of 0).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Ion Cannon Turret",
+      "Subtype":"Turret",
+      "Set":[
+         "Y-Wing Expansion Pack",
+         "HWK-290 Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":5,
+      "Text":"<p><strong>Attack:</strong> Attack 1 ship (even a ship outside your firing arc).</p><p>If this attack hits the target ship, the ship suffers 1 damage and receives 1 ion token. Then cancel <em>all</em> dice results.</p>",
+      "FAQ":"Ion Cannon Turrets deal damage normally, they do not bypass shields."
+   },
+   {
+      "Name":"Blaster Turret",
+      "Subtype":"Turret",
+      "Set":[
+         "HWK-290 Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p><strong>Attack (focus):</strong> Spend 1 focus token to perform this attack against 1 ship (even a ship outside your firing arc).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Autoblaster Turret",
+      "Subtype":"Turret",
+      "Set":[
+         "Most Wanted Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p><strong>Attack:</strong> Attack 1 ship (even a ship outside your firing arc).</p><p>Your <em>Hit</em> results cannot be canceled by defense dice. The defender may cancel <em>Critical Hit</em> results before <em>Hit</em> results.</p>",
+      "FAQ":"Dice Results: \"Results that are added are treated as dice results that can only be canceled (they cannot be modified or rerolled).  For example, when attacking with \"Autoblaster\" a Evade result added by an evade token cannot cancel a Hit result.\""
+   },
+   {
+      "Name":"Twin Laser Turret",
+      "Subtype":"Turret",
+      "Set":[
+         "K-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":6,
+      "Text":"<p><strong>Attack:</strong> Perform this attack twice (even against a ship outside your firing arc).</p><p>Each time this attack hits, the defender suffers 1 damage. Then cancel all dice results.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Advanced Sensors",
+      "Subtype":"System",
+      "Set":[
+         "Lambda-class Shuttle Expansion Pack",
+         "E-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p>Immediately before you reveal your maneuver, you may perform 1 free action.</p><p>If you use this ability, you must skip your \"Perform action\" step during this round.</p>",
+      "FAQ":"If a ship equipped with Advanced Sensors does not have a maneuver dial assigned to it (for example, because it is ionized), it cannot use Advanced Sensors’ ability. If a ship is overlapping an obstacle when it activates, it may use Advanced Sensors before revealing its maneuver dial."
+   },
+   {
+      "Name":"Sensor Jammer",
+      "Subtype":"System",
+      "Set":[
+         "Lambda-class Shuttle Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p>When defending, you may change 1 of the attacker's Hit results to a Focus result.</p><p>The attacker cannot reroll the die with the changed result.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Fire-Control System",
+      "Subtype":"System",
+      "Set":[
+         "B-Wing Expansion Pack",
+         "TIE Phantom Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>After you perform an attack, you may acquire a target lock on the defender.</p>",
+      "FAQ":"If a ship equipped with Fire-Control System and Weapons Engineer attacks, that ship must acquire the first target lock on the defender (if able) before acquring a target lock on a second ship. If a ship equipped with Fire-Control System attacks more than once in a round, it may acquire a target lock after each attack. It may spend the target lock acquired after the first attack on the second attack."
+   },
+   {
+      "Name":"Enhanced Scopes",
+      "Subtype":"System",
+      "Set":[
+         "Rebel Aces Expansion Pack",
+         "TIE Punisher Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>During the Activation phase, treat your pilot skill value as 0.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Accuracy Corrector",
+      "Subtype":"System",
+      "Set":[
+         "IG-2000 Expansion Pack",
+         "StarViper Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p>When attacking, during the “Modify Attack Dice” step, you may cancel all of your dice results. Then, you may add 2 <em>Hit</em> results to your roll. Your dice cannot be modified again during this attack.</p>",
+      "FAQ":"Accuracy Corrector must be used during the “Modify Attack Dice” step. After cancelling your dice results, you may choose not to add 2 results. This still counts as an attack. Dice results added by Accuracy Corrector may not be modified again, but may be cancelled (for example, by the effect of Ion Cannon). Accuracy Corrector can be used to add 2 results even if you have the Blinded Pilot Damage card and are rolling no attack dice."
+   },
+   {
+      "Name":"Advanced Targeting Computer",
+      "Subtype":"System",
+      "Set":[
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":5,
+      "Text":"<p class='restriction'>TIE Advanced only.</p><p>When attacking with your primary weapon, if you have a target lock on the defender, you may add 1 Critical Hit result to your roll. If you do, you cannot spend target locks during this attack.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"\"Genius\"",
+      "Subtype":"Salvaged Astromech",
+      "Set":[
+         "Most Wanted Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":0,
+      "Text":"<p>If you are equipped with a bomb that can be dropped when you reveal your maneuver, you may drop the bomb <em>after</em> you execute your maneuver instead.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"R4-B11",
+      "Subtype":"Salvaged Astromech",
+      "Set":[
+         "Most Wanted Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p>When attacking, if you have a target lock on the defender, you may spend the target lock to choose any or all defense dice. The defender must reroll the chosen dice.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"R4 Agromech",
+      "Subtype":"Salvaged Astromech",
+      "Set":[
+         "Most Wanted Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>When attacking, after you spend a focus token, you may acquire a target lock on the defender.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Unhinged Astromech",
+      "Subtype":"Salvaged Astromech",
+      "Set":[
+         "Most Wanted Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>You may treat all 3-speed maneuvers as green maneuvers.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Salvaged Astromech",
+      "Subtype":"Salvaged Astromech",
+      "Set":[
+         "Most Wanted Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>When you are dealt a Damage card with the Ship trait, you may immediately discard that card (before resolving its effect).</p><p>Then discard this Upgrade card.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Cloaking Device",
+      "Subtype":"Illicit",
+      "Set":[
+         "Mist Hunter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p class='restriction'>Small ship only.<p><p><strong>Action:</strong> Perform a free cloak action.</p><p>At the end of each round, if you are cloaked, roll 1 attack die. On a <em>Focus</em> result, discard this card, then decloak or discard your cloak token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Glitterstim",
+      "Subtype":"Illicit",
+      "Set":[
+         "Kihraxz Fighter Expansion Pack",
+         "Hound's Tooth Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>At the start of the Combat phase, you may discard this card and receive 1 stress token. If you do, until the end of the round, when attacking or defending, you may change all of your <em>Focus</em> results to <em>Hit</em> or <em>Evade</em> results.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Dead Man's Switch",
+      "Subtype":"Illicit",
+      "Set":[
+         "IG-2000 Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>When you are destroyed, each ship at Range 1 suffers one damage.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Feedback Array",
+      "Subtype":"Illicit",
+      "Set":[
+         "IG-2000 Expansion Pack",
+         "Punishing One Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>During the Combat phase, instead of performing any attacks, you may receive 1 ion token and suffer 1 damage to choose 1 enemy ship at Range 1. That ship suffers 1 damage.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Inertial Dampeners",
+      "Subtype":"Illicit",
+      "Set":[
+         "IG-2000 Expansion Pack",
+         "StarViper Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p>When you reveal your maneuver, you may discard this card to instead perform a white [0] maneuver. Then receive 1 stress token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"\"Hot Shot\" Blaster",
+      "Subtype":"Illicit",
+      "Set":[
+         "IG-2000 Expansion Pack",
+         "Most Wanted Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p><strong>Attack:</strong> Discard this card to attack 1 ship (even a ship outside your firing arc).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Proximity Mines",
+      "Subtype":"Bomb",
+      "Set":[
+         "Slave 1 Expansion Pack",
+         "IG-2000 Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p><strong>Action:</strong> Discard this card to <em>drop</em> 1 proximity mine token.</p><p>When a ship's base or maneuver template overlaps this token, this token <em>detonates</em>.</p><p><strong>Detonation:</strong> When this bomb detonates, the ship that moved through or overlapped the token rolls 3 attack dice and suffers all Hits and Critical Hits rolled. Then discard the token.</p>",
+      "FAQ":"Note that a Proximity Mine token that is dropped on a ship is placed under the ship’s base and does immediately detonate. A ship is also considered to be overlapping a Proximity Mine token when it executes a maneuver, decloaks, or performs a boost or barrel roll. If a ship executes a maneuver in which its maneuver template and/or base overlaps multiple proximity mine tokens, all of the proximity mine tokens detonate, even if the ship is destroyed by the first token it overlaps. If a ship drops a Proximity Mine so that it overlaps multiple ships, the player dropping the bomb chooses which ship suffers the effects of the Proximity Mine detonating. Draw Their Fire and other such abilities do not work because it is not technically an attack."
+   },
+   {
+      "Name":"Seismic Charges",
+      "Subtype":"Bomb",
+      "Set":[
+         "Slave 1 Expansion Pack",
+         "IG-2000 Expansion Pack",
+         "TIE Bomber Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>When you reveal your maneuver dial, you may discard this card to <em>drop</em> 1 seismic charge token.</p><p>This token detonates at the end of the Activation phase.</p><p><strong>Detonation:</strong> Seismic charges cause 1 damage to all ships within Range 1 when detonated (at the end of the Activation phase).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Proton Bombs",
+      "Subtype":"Bomb",
+      "Set":[
+         "VT-49 Decimator Expansion Pack",
+         "TIE Bomber Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":5,
+      "Text":"<p>When you reveal your maneuver dial, you may discard this card to <em>drop</em> 1 proton bomb token.</p><p>This token detonates at the end of the Activation phase.</p><p><strong>Detonation:</strong> Deal 1 <em>faceup</em> Damage card to each ship at Range 1 of the token. Then discard this token.</p>",
+      "FAQ":"Every ship at Range 1 takes a faceup Damage card on detonation. A ship must take the Damage card regardless of how many shields it has remaining, and such damage cannot be canceled by evade tokens."
+   },
+   {
+      "Name":"Cluster Mines",
+      "Subtype":"Bomb",
+      "Set":[
+         "TIE Punisher Expansion Pack",
+         "Ghost Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p><strong>Action:</strong> Discard this card to <em>drop</em> 1 cluster mine token set.</p><p>When a ship's base or maneuver template overlaps a cluster mine token, that token <em>detonates</em>.</p><p><strong>Detonation:</strong> When a bomb token detonates, the ship that moved through or overlapped that token rolls 2 attack dice and suffers all Hits rolled. Then discard that token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Conner Net",
+      "Subtype":"Bomb",
+      "Set":[
+         "K-Wing Expansion Pack",
+         "Ghost Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p><strong>Action:</strong> Discard this card to <em>drop</em> 1 Connor net token.</p><p>When a ship's base or maneuver template overlaps this token, this token <em>detonates</em>.</p><p><strong>Detonation:</strong> The affected ship suffers 1 damage, receives 2 ion tokens, and skips its \"Perform Action\" step. Then discard the token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Ion Bombs",
+      "Subtype":"Bomb",
+      "Set":[
+         "K-Wing Expansion Pack",
+         "TIE Punisher Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p><strong>Action:</strong> When you reveal your maneuver dial, you may discard this card to drop 1 ion bomb token.</p><p>This token <em>detonates</em> at the end of the Activation phase.</p><p><strong>Detonation:</strong> Deal two ion tokens to all ships within Range 1.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"\"Mangler\" Cannon",
+      "Subtype":"Cannon",
+      "Set":[
+         "IG-2000 Expansion Pack",
+         "M3-A Scyk Interceptor Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p><strong>Action:</strong> Attack 1 ship.</p><p>When attacking, you may change 1 of your <em>Hit</em> results to a <em>Critical</em> result.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Tractor Beam",
+      "Subtype":"Cannon",
+      "Set":[
+         "Mist Hunter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p><strong>Action:</strong> Attack 1 ship.</p><p>If this attack hits, the defender receives 1 tractor beam token. Then cancel <em>all</em> dice results.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Autoblaster",
+      "Subtype":"Cannon",
+      "Set":[
+         "B-Wing Expansion Pack",
+         "IG-2000 Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":5,
+      "Text":"<p><strong>Action:</strong> Attack 1 ship.</p><p>Your <em>Hit</em> results cannot be canceled by defense dice.</p><p>The defender may cancel <em>Critical Hit</em> before <em>Hit</em> results.</p>",
+      "FAQ":"The defender cannot cancel Hit results with evade tokens or other added Evade results, such as from C-3PO, when attacked with Autoblaster."
+   },
+   {
+      "Name":"Flechette Cannon",
+      "Subtype":"Cannon",
+      "Set":[
+         "M3-A Scyk Interceptor Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p><strong>Action:</strong> Attack 1 ship.</p><p>If this attack hits, the defender suffers 1 damage and, if the defender is not stressed, it also receives 1 stress token. Then cancel all dice results.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Ion Cannon",
+      "Subtype":"Cannon",
+      "Set":[
+         "Slave 1 Expansion Pack",
+         "B-Wing Expansion Pack",
+         "TIE Defender Expansion Pack",
+         "M3-A Scyk Interceptor Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p><strong>Action:</strong> Attack 1 ship.</p><p>If this attack hits, the defender suffers 1 damage and receives 1 ion token. Then cancel <em>all</em> dice results.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Heavy Laser Cannon",
+      "Subtype":"Cannon",
+      "Set":[
+         "Slave 1 Expansion Pack",
+         "Lambda-class Shuttle Expansion Pack",
+         "YT-2400 Freighter Expansion Pack",
+         "Hound's Tooth Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":7,
+      "Text":"<p><strong>Attack:</strong> Attack 1 ship.</p><p>Immediately after rolling your attack dice, you must change all of your <em>Critical Hit</em> results to <em>Hit</em> results.</p>",
+      "FAQ":"After an attack is performed using Heavy Laser Cannon and all Critical Hit￼ results are changed to Hit￼ results, the attack dice can be modified as normal. Any attack dice rerolled are not changed from ￼Critical Hit results to Hit results."
+   },
+   {
+      "Name":"Proton Torpedoes",
+      "Subtype":"Torpedo",
+      "Set":[
+         "X-Wing Core Set",
+         "X-Wing The Force Awakens Core Set",
+         "B-Wing Expansion Pack",
+         "X-Wing Expansion Pack",
+         "Y-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p><strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.</p><p>You may change 1 of your <em>Focus</em> results to a <em>Critical Hit</em></em> result.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Plasma Torpedoes",
+      "Subtype":"Torpedo",
+      "Set":[
+         "K-Wing Expansion Pack",
+         "TIE Punisher Expansion Pack",
+         "Punishing One Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p><strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.</p><p>If this attack hits, after dealing damage, remove 1 shield token from the defender.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Extra Munitions",
+      "Subtype":"Torpedo",
+      "Set":[
+         "K-Wing Expansion Pack",
+         "TIE Punisher Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p class='restriction'>Limited.</p><p>When you equip this card, place 1 ordnance token on each equipped <em>Torpedo</em>, <em>Missile</em>, and <em>Bomb</em> Upgrade card. When you are instructed to discard an Upgrade card, you may discard 1 ordnance token on that card instead.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Bomb Loadout",
+      "Subtype":"Torpedo",
+      "Set":[
+         "Most Wanted Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":0,
+      "Text":"<p class='restriction'>Y-wing Only. Limited.</p><p>Your upgrade bar gains the <em>Bomb</<em> icon.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Ion Torpedoes",
+      "Subtype":"Torpedo",
+      "Set":[
+         "VT-49 Decimator Expansion Pack",
+         "StarViper Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":5,
+      "Text":"<p><strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.</p><p>If this attack hits, the defender and each ship at Range 1 of it receives 1 ion token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Flechette Torpedoes",
+      "Subtype":"Torpedo",
+      "Set":[
+         "Rebel Transport Expansion Pack",
+         "E-Wing Expansion Pack",
+         "TIE Punisher Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p><strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.</p><p>After you perform this attack, the defender receives 1 stress token if its hull value is 4 or lower.</p>",
+      "FAQ":"When determining whether the defender receives a stress token from Flechette Torpedoes, the defender’s starting hull value (including any equipped Hull Upgrade card) is used, not the defender’s remaining hull points. If a ship equipped with Munitions Failsafe and Flechette Torpedoes misses when firing Flechette Torpedoes at a target with hull value ‘4’ or lower, the defender receives 1 stress token and the Flechette Torpedoes are not discarded."
+   },
+   {
+      "Name":"Advanced Proton Torpedoes",
+      "Subtype":"Torpedo",
+      "Set":[
+         "B-Wing Expansion Pack",
+         "TIE Bomber Expansion Pack",
+         "Ghost Expansion Pack",
+         "T-70 X-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":6,
+      "Text":"<p><strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.</p><p>You may change 3 of your blank results to <em>Focus</em> results.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Adv. Homing Missiles",
+      "Subtype":"Missile",
+      "Set":[
+         "K-Wing Expansion Pack",
+         "TIE Punisher Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p><strong>Attack (target lock):</strong> Discard this card to perform this attack.</p><p>If this attack hits, deal 1 faceup Damage card to the defender. Then cancel <em>all</em> dice results.</p>",
+      "FAQ":"The attacker must have a target lock on the defender to use Adv. Homing Missiles, but the target lock is not spent in order to perform the attack."
+   },
+   {
+      "Name":"Concussion Missiles",
+      "Subtype":"Missile",
+      "Set":[
+         "TIE Advanced Expansion Pack",
+         "Millennium Falcon Expansion Pack",
+         "A-Wing Expansion Pack",
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p><strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.</p><p>You may change 1 of your blank results to a <em>Hit</em> result.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Homing Missiles",
+      "Subtype":"Missile",
+      "Set":[
+         "A-Wing Expansion Pack",
+         "Inquisitor's TIE Expansion Pack",
+         "Kihraxz Fighter Expansion Pack",
+         "Slave 1 Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":5,
+      "Text":"<p><strong>Attack (target lock):</strong> Discard this card to perform this attack.</p><p>The defender cannot spend evade tokens during this attack.</p>",
+      "FAQ":"The attacker must have a target lock on the defender to use Homing Missiles, but the target lock is not spent in order to perform the attack."
+   },
+   {
+      "Name":"Ion Pulse Missiles",
+      "Subtype":"Missile",
+      "Set":[
+         "Z-95 Headhunter Expansion Pack",
+         "TIE Defender Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p><strong>Attack (target lock):</strong> Discard this card to perform this attack.</p><p>If this attack hits, the defender suffers 1 damage and recieves 2 ion tokens. Then cancel all dice results.</p>",
+      "FAQ":"It is noted that this card only requires a target lock to use the card, but the target lock is not discarded, allowing a second use of the target lock."
+   },
+   {
+      "Name":"Proton Rockets",
+      "Subtype":"Missile",
+      "Set":[
+         "Rebel Aces Expansion Pack",
+         "YT-2400 Freighter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p><strong>Attack (Focus):</strong> Discard this card to perform this attack.</p><p>You may roll additional attack dice equal to your agility value, to a maximum of 3 additional dice.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"XX-23 S-Thread Tracers",
+      "Subtype":"Missile",
+      "Set":[
+         "Inquisitor's TIE Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p><strong>Attack (Focus):</strong> Discard this card to perform this attack.</p><p>If this attack hits, each friendly ship at Range 1-2 of you may acquire a target lock on the defender.</p><p>Then cancel <em>all</em> dice results.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Assault Missiles",
+      "Subtype":"Missile",
+      "Set":[
+         "Millennium Falcon Expansion Pack",
+         "Slave 1 Expansion Pack",
+         "Z-95 Headhunter Expansion Pack",
+         "TIE Bomber Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":5,
+      "Text":"<p><strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.</p><p>If this attack hits, each other ship at Range 1 of the defender suffers 1 damage.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Chardaan Refit",
+      "Subtype":"Missile",
+      "Set":[
+         "Rebel Aces Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":-2,
+      "Text":"<p class='restriction'>A-wing only.</p><p>This card has a negative squad point cost.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Cluster Missiles",
+      "Subtype":"Missile",
+      "Set":[
+         "TIE Advanced Expansion Pack",
+         "A-Wing Expansion Pack",
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p><strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack <em>twice</em>.</p>",
+      "FAQ":"The attacker only needs to spend one target lock to use Cluster Missiles. Cluster Missiles is treated as two separate attacks against the same target. If a ship is equipped with Cluster Missiles and Munitions Failsafe, both attacks must miss for Munitions Failsafe to activate. If the target is destroyed with the first attack, the second attack does not occur. Both attacks must be against the same target. Marksmanship modifies both attacks. Spending a <em>Focus</em> Token only modifies one attack. A Target Lock spent to attack with a secondary weapon does not allow the roll to be modified, that Lock is spent just to use the weapon. Either attack missing can trigger the Gunner / Luke Skywalker effect; however if the Gunner /Luke ability is used for the first attack, the second Cluster Missile attack does not occur."
+   },
+   {
+      "Name":"Backup Shield Generator",
+      "Subtype":"Cargo",
+      "Set":[
+         "Rebel Transport Expansion Pack",
+         "Tantive IV Expansion Pack",
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p class='restriction'>Limited.</p><p>At the end of each round, you may spend 1 energy to recover 1 shield (up to your shield value).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Comms Booster",
+      "Subtype":"Cargo",
+      "Set":[
+         "Rebel Transport Expansion Pack",
+         "Tantive IV Expansion Pack",
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p><strong>Energy:</strong> Spend 1 energy to remove all stress tokens from a friendly ship at Range 1-3. Then assign 1 focus token to that ship.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"EM Emitter",
+      "Subtype":"Cargo",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p class='restriction'>Limited.</p><p>When you obstruct an attack, the defender rolls 3 additional defense dice (instead of 1).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Engine Booster",
+      "Subtype":"Cargo",
+      "Set":[
+         "Rebel Transport Expansion Pack",
+         "Tantive IV Expansion Pack",
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p class='restriction'>Limited.</p><p>Immediately before you reveal your maneuver dial, you may spend 1 energy to execute a white [Straight 1] maneuver. You cannot use this ability if you would overlap another ship.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Expanded Cargo Hold",
+      "Subtype":"Cargo",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p class='restriction'>GR-75 only.</p><p>Once per round, when you would be dealt a faceup Damage card, you may draw that card from either the fore or aft Damage deck.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Frequency Jammer",
+      "Subtype":"Cargo",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p class='restriction'>Limited.</p><p>When you perform a jam action, choose 1 enemy ship that does not have a stress token and is at Range 1 of the jammed ship. The chosen ship receives 1 stress token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Shield Projector",
+      "Subtype":"Cargo",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p>When an enemy ship is declaring either a small or large ship as the target of its attack, you may spend 3 energy to force that ship to target you if possible.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Slicer Tools",
+      "Subtype":"Cargo",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":7,
+      "Text":"<p><strong>Action:</strong> Choose 1 or more enemy ships at Range 1-3 that have a stress token. For each ship chosen, you may spend 1 energy to cause that ship to suffer 1 damage.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Tibanna Gas Supplies",
+      "Subtype":"Cargo",
+      "Set":[
+         "Rebel Transport Expansion Pack",
+         "Tantive IV Expansion Pack",
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p class='restriction'>Limited.</p><p><strong>Energy:</strong> You may discard this card to gain 3 energy.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Ionization Reactor",
+      "Subtype":"Cargo",
+      "Set":[
+         "Tantive IV Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p class='restriction'>Limited.</p><p><strong>Energy:</strong> Spend 5 energy from this card and discard this card to cause each other ship at Range 1 to suffer 1 damage and receive 1 ion token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Ion Cannon Battery",
+      "Subtype":"Hardpoint",
+      "Set":[
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":6,
+      "Text":"<p><strong>Attack (energy):</strong> Spend 2 energy from this card to perform this attack. If this attack hits, the defender suffers 1 critical damage and receives 1 ion token. Then cancel all dice results.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Quad Laser Cannons",
+      "Subtype":"Hardpoint",
+      "Set":[
+         "Imperial Raider Expansion Pack",
+         "Tantive IV Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":6,
+      "Text":"<p><strong>Attack (energy):</strong> Spend 1 energy from this card to perform this attack. If this attack does not hit, you may immediately spend 1 energy from this card to perform this attack again.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Single Turbolasers",
+      "Subtype":"Hardpoint",
+      "Set":[
+         "Tantive IV Expansion Pack",
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":8,
+      "Text":"<p><strong>Attack (energy):</strong> Spend 2 energy from this card to perform this attack. The defender doubles his agility value against this attack. You may change 1 of your <em>Focus</em> results to a <em>Hit</em> result.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Advanced Cloaking Device",
+      "Subtype":"Modification",
+      "Set":[
+         "TIE Phantom Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p class='restriction'>TIE Phantom only. Modification.</p><p>After you perform an attack, you may perform a free cloak action.</p>",
+      "FAQ":"A ship with a stress token cannot perform actions, and therefore cannot perform the free cloak action provided by Advanced Cloaking Device."
+   },
+   {
+      "Name":"Advanced SLAM",
+      "Subtype":"Modification",
+      "Set":[
+         "K-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p class='restriction'>Modification.</p><p>After performing a SLAM action, if you did not overlap an obstacle or another ship, you may perform a free action.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Anti Pursuit Laser",
+      "Subtype":"Modification",
+      "Set":[
+         "Lambda-class Shuttle Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p class='restriction'>Large ship only. Modification.</p><p>After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die.</p><p>On a <em>Hit</em> or <em>Critical</em> result, the enemy ship suffers 1 damage.</p>",
+      "FAQ":"The effect of Anti-Pursuit Lasers only resolves if an enemy ship is touching the ship equipped with Anti- Pursuit Lasers after executing its maneuver. The effect of Anti-Pursuit Lasers does not resolve if only the maneuver template overlaps a ship equipped with Anti-Pursuit Lasers."
+   },
+   {
+      "Name":"Autothrusters",
+      "Subtype":"Modification",
+      "Set":[
+         "StarViper Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p class='restriction'>Modification.</p><p>When defending, if you are beyond Range 2 or outside the attacker's firing arc, you may change 1 of your blank results to an <em>Evade</em> result. You can equip this card only if you have the <em>Boost</em> action icon.</p>",
+      "FAQ":"Autothrusters does not trigger if the ship equipped with Autothrusters is inside the attacker’s primary or auxiliary firing arc at Range 1–2. If a ship with a turret weapon attacks a ship equipped with Autothrusters, first measure closest point to closest point to determine range, then use the printed firing arc on the attacker to determine whether the defender is in the attacker’s firing arc."
+   },
+   {
+      "Name":"B-Wing/E2",
+      "Subtype":"Modification",
+      "Set":[
+         "Rebel Aces Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p class='restriction'>B-wing only. Modification.</p><p>Your upgrade bar gains the <em>Crew Member</em> upgrade icon.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Combat Retrofit",
+      "Subtype":"Modification",
+      "Set":[
+         "Rebel Transport Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":10,
+      "Text":"<p class='restriction'>GR-75 only. Huge Ship only. Modification.</p><p>Increase your hull value by 2 and your shield value by 1.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Countermeasures",
+      "Subtype":"Modification",
+      "Set":[
+         "YT-2400 Freighter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p class='restriction'>Large ship only. Modification.</p><p>At the start of the Combat phase, you may discard this card to increase your agility value by 1 until the end of the round. Then you may remove 1 enemy target lock from your ship.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Engine Upgrade",
+      "Subtype":"Modification",
+      "Set":[
+         "Millennium Falcon Expansion Pack",
+         "Hound's Tooth Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p class='restriction'>Modification.</p><p>Your action bar gains the <em>Boost</em> action icon.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Integrated Astromech",
+      "Subtype":"Modification",
+      "Set":[
+         "T-70 X-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":0,
+      "Text":"<p class='restriction'>X-Wing Only. Modification.</p><p>When you are dealt a Damage card, you may discard 1 of your <em>Astromech</em> Upgrade cards to discard that Damage card (without resolving its effect).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Experimental Interface",
+      "Subtype":"Modification",
+      "Set":[
+         "YT-2400 Freighter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":true,
+      "Cost":3,
+      "Text":"<p class='restriction'>Modification.</p><p>Once per round, after you perform an action, you may perform 1 free action from an equipped Upgrade card with the \"<strong>Action:</strong>\" header. Then receive 1 stress token.</p>",
+      "FAQ":"If Experimental Interface and Push the Limit are both equipped to a ship, they can be used together to perform two additional free actions. After the actions have resolved, the ship receives 2 stress tokens. Experimental Interface is unique. Only one copy can be included in your squad."
+   },
+   {
+      "Name":"Hull Upgrade",
+      "Subtype":"Modification",
+      "Set":[
+         "Imperial Aces Expansion Pack",
+         "StarViper Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p class='restriction'>Modification.</p><p>Increase your hull value by 1.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Ion Projector",
+      "Subtype":"Modification",
+      "Set":[
+         "Hound's Tooth Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p class='restriction'>Large ship only. Modification.</p><p>After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die. On a <em>Hit</em> or <em>Critical Hit</em> result, the enemy ship receives 1 ion token.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Maneuvering Fins",
+      "Subtype":"Modification",
+      "Set":[
+         "Hound's Tooth Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p class='restriction'>YV-666 only. Modification.</p><p>When you reveal a turn maneuver (<em>Left turn</em> or <em>Right turn</em>}, you may rotate your dial to the corresponding bank maneuver (<em>Left Bank</em> or <em>Right Bank</em>) of the same speed.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Munitions Failsafe",
+      "Subtype":"Modification",
+      "Set":[
+         "Z-95 Headhunter Expansion Pack",
+         "TIE Defender Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p class='restriction'>Modification.</p><p>When attacking with a secondary weapon that instructs you to discard it to perform the attack, do not discard it unless the attack hits.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Shield Upgrade",
+      "Subtype":"Modification",
+      "Set":[
+         "Millennium Falcon Expansion Pack",
+         "Imperial Aces Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p class='restriction'>Modification.</p><p>Increase your shield value by 1.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Stealth Device",
+      "Subtype":"Modification",
+      "Set":[
+         "Slave 1 Expansion Pack",
+         "M3-A Scyk Interceptor Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p class='restriction'>Modification.</p><p>Increase your agility value by 1. If you are hit by an attack, discard this card.</p>",
+      "FAQ":"A ship equipped with Stealth Device only discards Stealth Device if it defends against an attack and is hit. Damage suffered from other game effects (such as Seismic Charges, asteroids, Feedback Array, or damage received for being at Range 1 of a ship hit by Assault Missiles) does not cause a ship to discard Stealth Device."
+   },
+   {
+      "Name":"Stygium Particle Accelerator",
+      "Subtype":"Modification",
+      "Set":[
+         "TIE Phantom Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p class='restriction'>Modification.</p><p>When you either decloak or perform a cloak action, you may perform a free evade action.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Tactical Jammer",
+      "Subtype":"Modification",
+      "Set":[
+         "VT-49 Decimator Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p class='restriction'>Modification. Large ship only.</p><p>Your ship can obstruct enemy attacks.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Targeting Computer",
+      "Subtype":"Modification",
+      "Set":[
+         "Imperial Aces Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p class='restriction'>Modification.</p><p>Your action bar gains the <em>Target Lock</em> action icon.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Twin Ion Engine Mk. II",
+      "Subtype":"Modification",
+      "Set":[
+         "TIE Punisher Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":1,
+      "Text":"<p class='restriction'>TIE only. Modification.</p><p>You may treat all bank maneuvers (<em>Left</em> or <em>Right</em>) as green maneuvers.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Engineering Team",
+      "Subtype":"Team",
+      "Set":[
+         "Tantive IV Expansion Pack",
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p class='restriction'>Limited.</p><p>During the Activation phase, when you reveal a <em>Straight</em> maneuver, gain 1 additional energy during the \"Gain Energy\" step.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Gunnery Team",
+      "Subtype":"Team",
+      "Set":[
+         "Tantive IV Expansion Pack",
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p class='restriction'>Limited.</p><p>Once per round, when attacking with a secondary weapon, you may spend 1 energy to change 1 of your blank results to a <em>Hit</em> result.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Sensor Team",
+      "Subtype":"Team",
+      "Set":[
+         "Tantive IV Expansion Pack",
+         "Imperial Raider Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":4,
+      "Text":"<p>When acquiring a target lock, you may lock onto an enemy ship at Range 1-5 (instead of Range 1-3).</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Weapons Guidance",
+      "Subtype":"Tech",
+      "Set":[
+         "X-Wing The Force Awakens Core Set",
+         "T-70 X-Wing Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":2,
+      "Text":"<p>When attacking, you may spend a focus token to change 1 of your blank results to a <em>Hit</em> result.</p>",
+      "FAQ":""
+   },
+   {
+      "Name":"Comm Relay",
+      "Subtype":"Tech",
+      "Set":[
+         "TIE/fo Fighter Expansion Pack"
+      ],
+      "Faction":"Neutral",
+      "FactionCode":0,
+      "Unique":false,
+      "Cost":3,
+      "Text":"<p>You cannot have more than 1 evade token.</p><p>During the End phase, do not remove an unused evade token from your ship.</p>",
+      "FAQ":""
+   }
+]

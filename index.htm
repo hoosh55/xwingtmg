@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>X-Wing Card Database</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- BOOSTRAP -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- TYPOGRAPHY -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,400italic,500,700,900,100italic,300italic,500italic,900italic,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- C3 -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.css">
+
+  <!-- BOOSTRAP MATERIAL DESIGN -->
+  <link href="css/roboto.min.css" rel="stylesheet">
+  <link href="css/material-fullpalette.min.css" rel="stylesheet">
+  <link href="css/ripples.min.css" rel="stylesheet">
+
+  <!-- DATATABLES -->
+  <link href="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+
+  <!-- JQUERY -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- ANGULAR -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js"></script>
+
+  <!-- ANGULAR UI BOOSTRAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.2/ui-bootstrap.min.js"></script>
+
+  <!-- BOOSTRAP -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- C3 -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.js"></script>
+
+  <!-- D3 -->
+  <script src="js/d3.min.js" charset="utf-8"></script>
+
+  <!-- DATATABLES -->
+  <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+  <script src="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+
+  <!--MATERIAL BOOSTRAP -->
+  <script src="js/ripples.min.js"></script>
+  <script src="js/material.min.js"></script>
+</head>
+
+<style>
+  strong {
+    font-variant: small-caps;
+  }
+
+  em {
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .restriction {
+    font-variant: small-caps;
+    font-style: italic;
+  }
+</style>
+
+<body>
+  <header>
+    <nav class="navbar navbar-material-grey-900">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <span>X-Wing Card Database</span>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-fluid">
+    <div class="container" style="border-radius: 2px; border: 1px solid #ccc; background-color: #fff; padding: 30px; margin-bottom:15px;">
+      <table class="table table-hover text-center" id="table-all">
+        <thead>
+          <th>
+            <td>Image</td>
+            <td>Name</td>
+            <td>Type</td>
+            <td>Set</td>
+            <td>Cost</td>
+            <td>Text</td>
+            <td></td>
+          </th>
+        </thead>
+        <tbody id="table-all-body">
+        </tbody>
+      </table>
+      <hr/>
+      <div id="output" class="text-center" hidden>
+        <h3 class="text-center">Pilot Skill Levels</h3>
+        <div id="chart_skill"></div>
+        <hr/>
+        <h3 class="text-center">Unique Cards</h3>
+        <div id="chart_uniques"></div>
+        <hr/>
+        <h3 class="text-center">Card Cost</h3>
+        <div id="chart_costs"></div>
+        <hr/>
+      </p>
+    </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container" style="border-radius: 2px; border: 1px solid #ccc; background-color: #fff; padding: 30px; margin-bottom:15px;" id="product-container">
+      
+    </div>
+  </div>
+</body>
+
+<script>
+  var carddata
+  var table_all
+
+  var faction = ["Neutral", "Rebellion", "Empire", "Scum"]
+
+  var products = ["X-Wing Core Set", "X-Wing The Force Awakens Core Set", "X-Wing Expansion Pack", "TIE Fighter Expansion Pack", "Y-Wing Expansion Pack", "TIE Advanced Expansion Pack", "Millennium Falcon Expansion Pack", "Slave 1 Expansion Pack", "A-Wing Expansion Pack", "TIE Interceptor Expansion Pack", "HWK-290 Expansion Pack","Lambda-class Shuttle Expansion Pack","B-Wing Expansion Pack","TIE Bomber Expansion Pack", "Z-95 Headhunter Expansion Pack","TIE Defender Expansion Pack","E-Wing Expansion Pack","TIE Phantom Expansion Pack","YT-2400 Freighter Expansion Pack","VT-49 Decimator Expansion Pack","Most Wanted Expansion Pack","M3-A Scyk Interceptor Expansion Pack","StarViper Expansion Pack","IG-2000 Expansion Pack","Hounds Tooth Expansion Pack","Kihraxz Fighter Expansion Pack","K-Wing Expansion Pack","TIE Punisher Expansion Pack","Ghost Expansion Pack","Inquisitor's TIE Expansion Pack","Mist Hunter Expansion Pack","Punishing One Expansion Pack","T-70 X-Wing Expansion Pack","TIE/fo Fighter Expansion Pack","Imperial Aces Expansion Pack","Rebel Aces Expansion Pack","Rebel Transport Expansion Pack","Tantive IV Expansion Pack","Imperial Raider Expansion Pack","Imperial Assault Carrier Expansion Pack"]
+
+  //neutral: 0, rebellion: 1, empire: 2, scum: 3
+  var data_skill = [];
+  var data_costs = [];
+  var data_uniques = [];
+
+  for (x = 0; x < 4; x++){
+    data_skill.push([])
+    data_costs.push([])
+    data_uniques.push([0])
+  }
+
+  for (x = 0; x < 10; x++){
+    data_skill[0].push(0);
+    data_skill[1].push(0);
+    data_skill[2].push(0);
+    data_skill[3].push(0);
+  }
+
+  for (x = 0; x < 50; x++){
+    data_costs[0].push(0);
+    data_costs[1].push(0);
+    data_costs[2].push(0);
+    data_costs[3].push(0);
+  }
+
+  $.getJSON("data/upgrade_cards.json", function( data ) {
+    for (p = 0; p < products.length; p++){
+      $("#product-container").append("<div class='row' id='" + products[p].split(' ').join('_').split('"').join('').split("'").join('').split('/').join('_') + "'><div class='col-xs-12'><hr/><h3>" + products[p] + "</h3></div></div>")
+    }
+
+    carddata = data;
+    console.log(data);
+    $("#table-all-body").html("");
+    for (i = 0; i < carddata.length; i++){
+      //console.log("Card: " + carddata[i].Name)
+
+      var uniquesymbol = ""
+      if (carddata[i].Unique == true){
+        var uniquesymbol = "&#8226; "
+        data_uniques[carddata[i].FactionCode][0] += 1; 
+      }
+
+      data_costs[carddata[i].FactionCode][carddata[i].Cost] += 1; 
+
+      /*if (carddata[i].Type == "Pilot"){
+        data_skill[carddata[i].FactionCode][carddata[i].PilotSkill] += 1; 
+      }*/
+
+
+      carddata[i].Image = ("img/upgrade/" + carddata[i].Name.split(' ').join('_').split('"').join('').split("'").join('').split('/').join('_') + ".png").toLowerCase();
+      carddata[i].Link = "http://xwing-miniatures.wikia.com/wiki/Special:Search?search=" + carddata[i].Name;
+      carddata[i].Wookie = "http://starwars.wikia.com/wiki/Special:Search?search=" + carddata[i].Name.split("'").join('').split('"').join('');
+
+      $("#table-all-body").append("<tr><td></td><td><a class='card_img' href='" + carddata[i].Image + "' target='_blank'><img src='" + carddata[i].Image + "' class='img-responsive'></a></td><td><a href='" + carddata[i].Link + "' target='_blank' style='font-variant: small-caps;'>" + uniquesymbol + carddata[i].Name + "</a></td><td>" + carddata[i].Subtype + "</td><td>" + carddata[i].Set.join(", ") + "</td><td>" + carddata[i].Cost + "</td><td>" + carddata[i].Text + "</td><td><a href='" + carddata[i].Wookie + "' target='_blank'><img src='http://vignette3.wikia.nocookie.net/starwars/images/a/aa/Wiki-shrinkable.png/revision/latest?cb=20060123022626' style='max-width:25px;'></a></td></tr>")
+
+      for (p = 0; p < carddata[i].Set.length; p++){
+        $("#" + carddata[i].Set[p].split(' ').join('_').split('"').join('').split("'").join('').split('/').join('_')).append("<div class='col-xs-3 col-sm-2'><img src='" + carddata[i].Image + "' class='img-responsive form-group'/></div>")
+      }
+    }
+
+    table_all = $('#table-all').dataTable( {
+      "scrollY": 800,
+      "scrollCollapse": true,
+      "paging": false,
+      "order": [[ 2, "asc" ]]
+    } );
+
+    for (x = 0; x < 4; x++){
+      data_skill[x].unshift(faction[x])
+      data_costs[x].unshift(faction[x])
+      data_uniques[x].unshift(faction[x])
+    }
+
+    var chart = c3.generate({
+      bindto: '#chart_skill',
+      data: {
+        columns: [data_skill[1],data_skill[2],data_skill[3]],
+        type: 'bar',
+        colors: {
+            "Neutral": '#C0C0BF',
+            "Rebellion": '#FF1719',
+            "Empire": '#2D4B73',
+            "Scum": '#C2B605'
+        },
+      } 
+    });
+
+    var chart2 = c3.generate({
+      bindto: '#chart_uniques',
+      data: {
+        columns: [data_uniques[0],data_uniques[1],data_uniques[2],data_uniques[3]],
+        type: 'bar',
+        colors: {
+            "Neutral": '#C0C0BF',
+            "Rebellion": '#FF1719',
+            "Empire": '#2D4B73',
+            "Scum": '#C2B605'
+        },
+      } 
+    });
+
+    var chart3 = c3.generate({
+      bindto: '#chart_costs',
+      data: {
+        columns: [data_costs[0], data_costs[1],data_costs[2],data_costs[3]],
+        type: 'bar',
+        colors: {
+            "Neutral": '#C0C0BF',
+            "Rebellion": '#FF1719',
+            "Empire": '#2D4B73',
+            "Scum": '#C2B605'
+        },
+      } 
+    });
+  });
+
+</script>
